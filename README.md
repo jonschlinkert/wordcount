@@ -16,6 +16,8 @@ var wordcount = require('wordcount');
 
 console.log(wordcount('Count the words in string.'));
 //=> 5
+console.log(wordcount('Count the words in string, again.'));
+//=> 6
 ```
 
 ## Author
