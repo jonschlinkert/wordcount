@@ -1,0 +1,41 @@
+{
+  "name": "wordcount",
+  "description": "Count the words in string.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/wordcount",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonschlinkert/wordcount.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/wordcount/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jonschlinkert/wordcount/blob/master/LICENSE-MIT"
+    }
+  ],
+  "keywords": [
+    "count",
+    "word",
+    "words",
+    "string"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "devDependencies": {
+    "verb": "~0.2.6",
+    "chai": "~1.9.1",
+    "mocha": "*"
+  }
+}
