@@ -7,12 +7,8 @@
 
 'use strict';
 
-
-// Split the text into an array of words
-var wordArray = function (str) {
-  return str.split(/[\s]+/).filter(Boolean);
-};
-
-module.exports = function wordcount(str) {
-  return wordArray(str).length;
+module.exports = function wordCount(content) {
+  var matches = content.match(/[\u0400-\u04FF]+|\w+/g);
+  var count = matches !== null ? matches.length : 0;
+  return count;
 };

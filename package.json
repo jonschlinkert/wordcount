@@ -24,18 +24,19 @@
     "count",
     "word",
     "words",
-    "string"
+    "string",
+    "cyrillic"
   ],
   "main": "index.js",
   "engines": {
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "mocha -R spec"
+    "test": "mocha -R spec -r should"
   },
   "devDependencies": {
     "verb": "~0.2.6",
-    "chai": "~1.9.1",
+    "should": "*",
     "mocha": "*"
   }
 }
