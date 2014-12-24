@@ -1,7 +1,7 @@
 {
   "name": "wordcount",
-  "description": "Count the words in string.",
-  "version": "0.2.0",
+  "description": "Count the words in string. Supports the English alphabet, Cyrillic, and CJK.",
+  "version": "1.0.0",
   "homepage": "https://github.com/jonschlinkert/wordcount",
   "author": {
     "name": "Jon Schlinkert",
