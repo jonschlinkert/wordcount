@@ -26,8 +26,7 @@
     "test": "mocha -R spec"
   },
   "devDependencies": {
-    "mocha": "*",
-    "should": "^4.3.0"
+    "mocha": "*"
   },
   "keywords": [
     "count",
