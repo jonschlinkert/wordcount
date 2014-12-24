@@ -1,6 +1,6 @@
 {
   "name": "wordcount",
-  "description": "Count the words in string. Supports the English alphabet, Cyrillic, and CJK.",
+  "description": "Count the words in string. Has basic support for Cyrillic and CJK.",
   "version": "1.0.0",
   "homepage": "https://github.com/jonschlinkert/wordcount",
   "author": {
@@ -30,7 +30,11 @@
   },
   "keywords": [
     "count",
+    "match",
     "number",
+    "regex",
+    "regexp",
+    "regular expression",
     "string",
     "word",
     "word-count",
