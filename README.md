@@ -2,7 +2,7 @@
 
 > Count the words in string. Has basic support for Cyrillic and CJK.
 
-## Install with [npm](npmjs.org)
+## Install with [npm](https://www.npmjs.com)
 
 ```bash
 npm i wordcount --save
