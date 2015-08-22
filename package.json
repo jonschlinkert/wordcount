@@ -1,29 +1,20 @@
 {
   "name": "wordcount",
-  "description": "Count the words in string. Has basic support for Cyrillic and CJK.",
-  "version": "1.0.0",
+  "description": "Count the words in string. also has basic support for Cyrillic and CJK.",
+  "version": "1.0.1",
   "homepage": "https://github.com/jonschlinkert/wordcount",
-  "author": {
-    "name": "Jon Schlinkert",
-    "url": "https://github.com/jonschlinkert"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/jonschlinkert/wordcount.git"
-  },
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/wordcount",
   "bugs": {
     "url": "https://github.com/jonschlinkert/wordcount/issues"
   },
-  "license": {
-    "type": "MIT",
-    "url": "https://github.com/jonschlinkert/wordcount/blob/master/LICENSE-MIT"
-  },
+  "license": "MIT",
   "main": "index.js",
   "engines": {
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "mocha -R spec"
+    "test": "mocha"
   },
   "devDependencies": {
     "mocha": "*"
@@ -40,5 +31,16 @@
     "word-count",
     "wordcount",
     "words"
-  ]
+  ],
+  "verb": {
+    "related": {
+      "list": [
+        "word-wrap",
+        "justified",
+        "pad-left",
+        "pad-right",
+        "right-align"
+      ]
+    }
+  }
 }
