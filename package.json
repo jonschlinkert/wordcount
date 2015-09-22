@@ -1,7 +1,7 @@
 {
   "name": "wordcount",
   "description": "Count the words in a string. Support for english, CJK and Cyrillic.",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "homepage": "https://github.com/jonschlinkert/wordcount",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "repository": "jonschlinkert/wordcount",
@@ -17,7 +17,7 @@
     "test": "mocha"
   },
   "dependencies": {
-    "word-regex": "^0.1.0"
+    "match-words": "^0.1.0"
   },
   "devDependencies": {
     "mocha": "*"
@@ -40,6 +40,7 @@
       "list": [
         "word-wrap",
         "justified",
+        "match-words",
         "is-whitespace",
         "whitespace-regex",
         "word-regex"
