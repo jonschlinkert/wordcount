@@ -7,14 +7,13 @@
 
 'use strict';
 
-var regex = require('word-regex');
+var matches = require('match-words');
 
 module.exports = function wordcount(str) {
   if (typeof str !== 'string') {
     throw new TypeError('expected a string');
   }
-  var matches = str.match(regex());
-  return matches !== null
-    ? matches.length
-    : 0;
+  var m = matches(str);
+  if (!m) return 0;
+  return m.length;
 };

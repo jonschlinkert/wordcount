@@ -23,6 +23,7 @@ wordcount('Count the words in string, again.');
 
 * [is-whitespace](https://www.npmjs.com/package/is-whitespace): Returns true if the value passed is all whitespace. | [homepage](https://github.com/jonschlinkert/is-whitespace)
 * [justified](https://www.npmjs.com/package/justified): Wrap words to a specified length and justified the text. | [homepage](https://github.com/jonschlinkert/justified)
+* [match-words](https://www.npmjs.com/package/match-words): Match the words in a string. | [homepage](https://github.com/jonschlinkert/match-words)
 * [whitespace-regex](https://www.npmjs.com/package/whitespace-regex): Regular expression for matching the whitespace in a string. | [homepage](https://github.com/regexps/whitespace-regex)
 * [word-regex](https://www.npmjs.com/package/word-regex): Regular expression for matching words in a string. Support for english, CJK and Cyrillic. | [homepage](https://github.com/jonschlinkert/word-regex)
 * [word-wrap](https://www.npmjs.com/package/word-wrap): Wrap words to a specified length. | [homepage](https://github.com/jonschlinkert/word-wrap)
